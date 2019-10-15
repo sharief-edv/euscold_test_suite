@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="eUSCOLC_Suite">
+  <test thread-count="5" name="Inventory_Test">
+    <classes>
+      <class name="com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Order_Test">
+    <classes>
+      <class name="com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos"/>
+    </classes>
+  </test>
+</suite> <!-- eUSCOLC_Suite -->

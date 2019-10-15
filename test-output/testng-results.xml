@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="eUSCOLC_Suite" duration-ms="324718" started-at="2019-10-15T13:16:24Z" finished-at="2019-10-15T13:21:49Z">
+    <groups>
+    </groups>
+    <test name="Inventory_Test" duration-ms="171071" started-at="2019-10-15T13:16:24Z" finished-at="2019-10-15T13:19:15Z">
+      <class name="com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods">
+        <test-method status="PASS" signature="Set_up()[pri:0, instance:com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods@17695df3]" name="Set_up" is-config="true" duration-ms="1" started-at="2019-10-15T13:16:24Z" finished-at="2019-10-15T13:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Set_up -->
+        <test-method status="PASS" signature="excelCreation()[pri:0, instance:com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods@17695df3]" name="excelCreation" duration-ms="36" started-at="2019-10-15T13:16:24Z" finished-at="2019-10-15T13:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelCreation -->
+        <test-method status="PASS" signature="Inv_Query(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods@17695df3]" name="Inv_Query" duration-ms="8393" started-at="2019-10-15T13:16:24Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods.excelCreation" finished-at="2019-10-15T13:16:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[104223]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[98596]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Inv_Query -->
+        <test-method status="PASS" signature="Inv_Query(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods@17695df3]" name="Inv_Query" duration-ms="6952" started-at="2019-10-15T13:16:33Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods.excelCreation" finished-at="2019-10-15T13:16:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[104223]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[98596]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1007]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Inv_Query -->
+        <test-method status="PASS" signature="Inv_Query(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods@17695df3]" name="Inv_Query" duration-ms="7108" started-at="2019-10-15T13:16:40Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods.excelCreation" finished-at="2019-10-15T13:16:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[104223]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[98596]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[313]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Inv_Query -->
+        <test-method status="PASS" signature="eUSCOLD_Login()[pri:0, instance:com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods@17695df3]" name="eUSCOLD_Login" duration-ms="30012" started-at="2019-10-15T13:16:47Z" depends-on-methods="com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods.Inv_Query" finished-at="2019-10-15T13:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eUSCOLD_Login -->
+        <test-method status="PASS" signature="Inventory()[pri:0, instance:com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods@17695df3]" name="Inventory" duration-ms="11865" started-at="2019-10-15T13:17:17Z" depends-on-methods="com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods.eUSCOLD_Login" finished-at="2019-10-15T13:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Inventory -->
+        <test-method status="PASS" signature="prod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods@17695df3]" name="prod" duration-ms="33857" started-at="2019-10-15T13:17:29Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods.Inventory" finished-at="2019-10-15T13:18:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CNTY CRNR WINGPTRS 4-10-40]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[231]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[231]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[280]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prod -->
+        <test-method status="PASS" signature="prod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods@17695df3]" name="prod" duration-ms="34235" started-at="2019-10-15T13:18:03Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods.Inventory" finished-at="2019-10-15T13:18:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BONLESS SKINLESS CHICKEN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[290]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[140]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[290]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[430]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prod -->
+        <test-method status="PASS" signature="prod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods@17695df3]" name="prod" duration-ms="33783" started-at="2019-10-15T13:18:37Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods.Inventory" finished-at="2019-10-15T13:19:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[313]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CHEFS CHOICE GRD CKN THIGH MEA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1,629]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1,629]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1,629]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prod -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods@17695df3]" name="logout" is-config="true" duration-ms="4498" started-at="2019-10-15T13:19:11Z" finished-at="2019-10-15T13:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods -->
+    </test> <!-- Inventory_Test -->
+    <test name="Order_Test" duration-ms="153622" started-at="2019-10-15T13:19:15Z" finished-at="2019-10-15T13:21:49Z">
+      <class name="com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="beforesuite" is-config="true" duration-ms="21" started-at="2019-10-15T13:16:24Z" finished-at="2019-10-15T13:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="Set_up()[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="Set_up" is-config="true" duration-ms="1" started-at="2019-10-15T13:19:15Z" finished-at="2019-10-15T13:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Set_up -->
+        <test-method status="PASS" signature="excelCreation()[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="excelCreation" duration-ms="1" started-at="2019-10-15T13:19:15Z" finished-at="2019-10-15T13:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelCreation -->
+        <test-method status="PASS" signature="order_inq(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="order_inq" duration-ms="2393" started-at="2019-10-15T13:19:15Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos.excelCreation" finished-at="2019-10-15T13:19:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[104223]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[98596]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0084027800]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20190101]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20190301]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_inq -->
+        <test-method status="PASS" signature="order_inq(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="order_inq" duration-ms="2409" started-at="2019-10-15T13:19:18Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos.excelCreation" finished-at="2019-10-15T13:19:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[104223]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[98596]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0084044305]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20190101]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20190301]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_inq -->
+        <test-method status="PASS" signature="order_inq(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="order_inq" duration-ms="2409" started-at="2019-10-15T13:19:20Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos.excelCreation" finished-at="2019-10-15T13:19:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[104223]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[98596]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0084034937]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20190101]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20190301]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_inq -->
+        <test-method status="PASS" signature="eUSCOLD_Login()[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="eUSCOLD_Login" duration-ms="27881" started-at="2019-10-15T13:19:23Z" depends-on-methods="com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos.order_inq" finished-at="2019-10-15T13:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eUSCOLD_Login -->
+        <test-method status="PASS" signature="order_search()[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="order_search" duration-ms="10516" started-at="2019-10-15T13:19:50Z" depends-on-methods="com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos.eUSCOLD_Login" finished-at="2019-10-15T13:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_search -->
+        <test-method status="PASS" signature="Ord_Summary(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="Ord_Summary" duration-ms="33725" started-at="2019-10-15T13:20:01Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos.order_search" finished-at="2019-10-15T13:20:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0084027800]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01/03/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25118]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[49707]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3626267]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0003626267]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TIMBERLAKE FOODS, INC.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1,000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Shipped]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ord_Summary -->
+        <test-method status="PASS" signature="Ord_Summary(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="Ord_Summary" duration-ms="34353" started-at="2019-10-15T13:20:35Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos.order_search" finished-at="2019-10-15T13:21:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0084044305]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01/14/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25367]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[855990]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3632963]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0003632963]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[PIGGLY WIGGLY MIDWEST]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[837]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Shipped]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ord_Summary -->
+        <test-method status="PASS" signature="Ord_Summary(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="Ord_Summary" duration-ms="33011" started-at="2019-10-15T13:21:09Z" data-provider="exceldata" depends-on-methods="com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos.order_search" finished-at="2019-10-15T13:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0084034937]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01/09/2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25204]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[112961]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3629164]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0003629164]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[OMAHA INDUSTRIES INC]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Shipped]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ord_Summary -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos@11c20519]" name="logout" is-config="true" duration-ms="6614" started-at="2019-10-15T13:21:42Z" finished-at="2019-10-15T13:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.euscold.db_data_comparision_with_ui.Order_Summary_Multiple_OrderNos -->
+    </test> <!-- Order_Test -->
+  </suite> <!-- eUSCOLC_Suite -->
+</testng-results>

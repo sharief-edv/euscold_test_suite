@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods">
+        <methods>
+          <include name="Inv_Query"/>
+          <include name="beforesuite"/>
+          <include name="logout"/>
+          <include name="prod"/>
+          <include name="Set_up"/>
+          <include name="Inventory"/>
+          <include name="eUSCOLD_Login"/>
+          <include name="excelCreation"/>
+        </methods>
+      </class> <!-- com.euscold.db_data_comparision_with_ui.Inventory_Inquiry_Multiple_Prods -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
