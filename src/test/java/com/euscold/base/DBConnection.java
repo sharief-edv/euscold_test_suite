@@ -70,7 +70,7 @@ public class DBConnection extends htmlLayout{
 		    sit_url = config.getProperty("url");
 		    username = config.getProperty("username");
 		    password = config.getProperty("password");
-		   // System.setProperty("logFilename", test_results+"Data_Comparision_Report");
+		   //  System.setProperty("logFilename", test_results+"Data_Comparision_Report");
         }catch (Exception e) {
 			e.printStackTrace();
 		}
